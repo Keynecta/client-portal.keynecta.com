@@ -15,11 +15,12 @@
 }
 
 .hexagons--reversed {
-    top: 100%;
+    top: 94%;
     right: 105%;
     bottom: unset;
     left: unset;
     transform: translate(50%, -50%) rotate(180deg);
+    z-index: -1;
 
     @include breakpoint(sm) {
         right: 100%;
