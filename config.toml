@@ -1,4 +1,4 @@
-baseURL = "https://www.keynecta.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Keynecta"
 enableRobotsTXT = true
