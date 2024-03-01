@@ -1,0 +1,18 @@
+<li class="blog-card flex flex-row p-relative grid">
+    <div class="blog-card__image-wrap p-relative cover-image grid-4">
+        {{ if .Params.seo.featured_image }}
+            <picture>
+                <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=avif&q=85&width=200" type="image/avif">
+            
+                <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=webp&q=85&width=200" type="image/webp">
+            
+                <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=jpg&q=85&width=200" type="image/jpg">
+            
+                <img src="{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" width="200" height="100">   
+            </picture>
+        {{  end }}
+    </div>
+    <div class="blog-card__content bg-white flow grid-8">
+        <h2 class="blog-card__title"><a class="blog-card__link no-decoration" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    </div>
+</li>

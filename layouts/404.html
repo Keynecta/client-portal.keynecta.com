@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section class="hero content-full">
+  <div class="hero__inner content-full bg-primary">
+    <div class="hero__content content-lg grid gap-lg">
+      <div class="grid-12 grid-5-md margin-block-auto font-color-white flow">
+        <img class="hexagon-divider" src="/uploads/white-hexagon-divider.svg" alt="" width="200" height="12">
+        <h1 class="no-margin">{{ page.Title }}</h1>
+        <div class="hero__body">
+          <p>Oops! The page you are looking for cannot be found.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="block flow">
+  <p>The page you've requested does not exist, or is unavailable at this time. Our website has recently been redesigned so if you tried to load a bookmarked page, or followed a link from another website, it's possible that the page you've requested has been moved. Use the navigation menu to locate the information you are looking for. <a href="{{ "/" | relURL }}">Go back to the homepage</a> or <a href="/contact/">contact us</a> for further assistance.</p>
+</section>
+{{ end }}

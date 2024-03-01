@@ -1,0 +1,41 @@
+<section class="media-text-block content-full {{ if eq .text_column_position "left" }}media-text-block--text-left{{ else }}media-text-block--text-right{{ end }} block bg-{{ .background_color }}{{ if .css_classes }} {{ .css_classes }}{{ end }}" aria-labelledby="{{ .heading | urlize }}">
+    <div class="content-lg grid gap-lg">
+      <div class="col grid-12 grid-5-md margin-block-auto block flow">
+        {{ if .preheading }}
+            <span class="text-style-slub">{{ .preheading }}</span>
+        {{ else }}
+            <img class="hexagon-divider" src="/uploads/green-hexagon-divider.svg" alt="" width="200" height="12">
+        {{ end }}
+        {{ if .heading }}
+            <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
+        {{ end }}
+        {{ if .body }}
+            {{ if in .body "\n" }}
+                {{ .body | markdownify }}
+            {{ else }}
+                <p>{{ .body | markdownify }}</p>
+            {{ end }}
+        {{ end }}
+        {{ if .button.enabled }}
+          {{ with .button }}
+              <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="col grid-12 grid-7-md">
+        {{ if .image.image_url }}
+        <div class="media-text-block__image">
+            <picture>
+              <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=85&width=350&height=300 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=85&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=85&width=800&height=525 800w" type="image/avif">
+          
+              <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=85&width=350&height=300 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=85&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=85&width=800&height=525 800w" type="image/webp">
+          
+              <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=85&width=350&height=300 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=85&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=85&width=800&height=525 800w" type="image/jpg">
+          
+              <img src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="600" height="450">   
+            </picture>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+</section>

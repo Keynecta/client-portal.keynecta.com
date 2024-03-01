@@ -1,0 +1,56 @@
+.btn {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-family: $primary-font;
+  font-size: $ic--100;
+  padding: $ic-100 $ic-400;
+  text-decoration: none;
+  transition: $transition;
+  inline-size: max-content;
+
+  @include breakpoint(md) {
+    font-size: 1.125rem;
+  }
+}
+
+.btn--primary {
+  color: $white;
+  background-color: $primary-color;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: calc(100% - 35px);
+    width: 60px;
+    height: 100%;
+    transition: $transition;
+    background-color: $primary-color;
+    clip-path: polygon(50% 0, 75% 0%, 100% 50%, 75% 100%, 50% 100%);
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $secondary-color;
+
+    &::after {
+      background-color: $secondary-color;
+      border-left: 16px solid $secondary-color;
+    }
+  }
+}
+
+.btn--secondary {
+  color: $white;
+
+  &::before {
+    background-image: linear-gradient(to right,$black 0%,$black-2 15%,$black-2 85%,$black 100%);
+  }
+}
+
+.btn--category {
+  padding: 0.5rem;
+  background-color: $white;
+  color: $primary-color;
+}

@@ -1,0 +1,19 @@
+<li class="blog-card flex flex-column p-relative col">
+    <div class="blog-card__image-wrap p-relative cover-image">
+        {{ if .Params.seo.featured_image }}
+            <picture>
+                <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=avif&q=85&width=500" type="image/avif">
+            
+                <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=webp&q=85&width=500" type="image/webp">
+            
+                <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=jpg&q=85&width=500" type="image/jpg">
+            
+                <img src="{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" width="500" height="300">   
+            </picture>
+        {{  end }}
+    </div>
+    <div class="blog-card__content bg-white flow">
+        <h2 class="h5"><a class="blog-card__link no-decoration" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <div class="blog-card__summary font-size-xs">{{ if .Params.seo.meta_description }}{{ .Params.seo.meta_description | safeHTML | truncate 125 }}{{ else }}{{ .Summary  | safeHTML | truncate 125 }}{{ end }}</div>
+    </div>
+</li>

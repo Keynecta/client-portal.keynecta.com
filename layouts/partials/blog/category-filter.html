@@ -1,0 +1,19 @@
+<div class="flex flex-column flex-row-md flex-center-md gap-sm">
+  <span>Browse all resources by</span>
+  <div class="category-wrapper">
+    <label for="categoryFilter" class="visually-hidden">Filter by Category</label>
+    {{- if isset .Site.Taxonomies "categories" -}}
+    {{- if not (eq (len .Site.Taxonomies.categories) 0) -}}
+      <select id="categoryFilter" class="category-select" onchange="location = this.value;">
+        <option value="">Category</option>
+        {{- range .Site.Taxonomies.categories -}}
+        <option value="{{ .Page.Permalink }}">{{ .Page.Title }}</option>
+        {{- end -}}
+      </select>
+    {{- end -}}
+    {{- end -}}
+  </div>
+</div>
+
+
+

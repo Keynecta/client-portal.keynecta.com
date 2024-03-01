@@ -1,0 +1,5 @@
+.content-card {
+    padding-block: clamp($ic-400, 12%, $ic-900);
+    padding-inline: clamp($ic-200, 8%, $ic-600);
+    box-shadow: 0 4px 16px rgba($black, .15);
+}

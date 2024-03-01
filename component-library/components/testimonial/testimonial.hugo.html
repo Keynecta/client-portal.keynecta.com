@@ -1,0 +1,12 @@
+<section class="content-full block bg-white flow" aria-label="Client Testimonial">
+    <div class="testimonial bg-hexagons block">
+        <div class="testimonial__body flow font-color-white">
+        <img class="hexagon-divider" src="/uploads/white-hexagon-divider.svg" alt="" width="200" height="12">
+        <p class="h3 fw-700">{{ .body | markdownify }}</p>
+        <div>
+            <p class="testimonial__name font-size-sm fw-700">{{ .name }}</p>
+            <p class="testimonial__title font-size-xs">{{ .title | markdownify }}</p>
+        </div>
+        </div>
+    </div>
+</section>
