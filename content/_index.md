@@ -44,7 +44,7 @@ content_blocks:
           Email: [mike@keynecta.com](mailto:mike@keynecta.com)
         button:
           enabled: true
-          button_url: https://www.keynecta.com/contact/
+          button_url: https://www.keynecta.com/schedule-introduction-call/
           button_text: Contact Us
           open_in_new_tab: true
 ---
