@@ -1,11 +1,11 @@
 <section class="has-hexagons block content-full flow">
     <img class="hexagons" src="/uploads/hexagon-group.svg" alt="">
-    {{ if .preheading }}
-        <span class="text-style-slub">{{ .preheading }}</span>
-    {{ else }}
-        <img class="hexagon-divider" src="/uploads/green-hexagon-divider.svg" alt="" width="200" height="12">
-    {{ end }}
     {{ if .heading }}
+        {{ if .preheading }}
+            <span class="text-style-slub">{{ .preheading }}</span>
+        {{ else }}
+            <img class="hexagon-divider" src="/uploads/green-hexagon-divider.svg" alt="" width="200" height="12">
+        {{ end }}
         <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
     {{ end }}
     {{ if in .body "\n" }}

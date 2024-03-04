@@ -2,8 +2,8 @@
 spec:
   structures:
     - content_blocks
-  label: Content Grid
-  description: Content grid block
+  label: Content Cards
+  description: Content cards block
   icon: wysiwyg
 
 # Defines the structure of this component, as well as the default values
