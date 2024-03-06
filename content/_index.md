@@ -43,15 +43,15 @@ content_blocks:
 
           * <a target="_blank" rel="noopener"
           href="https://docs.google.com/document/d/1A5ildqKixHehKMCPulSyq0FnWua10Sh3jq_uZEfj3l4/edit?usp=sharing">Permit
-          Required Confined Space Form</a>
+          Required Confined Space</a>
 
           * <a target="_blank" rel="noopener"
           href="https://docs.google.com/document/d/1pOQS1QPlod2Ua40efCNJcJjch3Eg195_s_vE3O5yYcs/edit?usp=sharing">Hot
-          Work Form</a>
+          Work</a>
 
           * <a target="_blank" rel="noopener"
           href="https://docs.google.com/document/d/1tuw2YoOYlNf1tGbPP9cha-IzarO9GKYjzfaWnoy7e7o/edit?usp=sharing">Lockout
-          Procedures Form</a>
+          Procedures</a>
 
 
           ### Other Training Resources&nbsp;
