@@ -3,14 +3,16 @@ _schema: default
 title: Home
 content_blocks:
   - _bookshop_name: home-hero
-    heading: Hi Gladstone, MI 👋
+    heading: Welcome to KeynectaI👋
     body: >-
-      Welcome to your Safety Portal. Each department has a safety committee
-      representative that you can connect with regarding safety issues. Provide
-      them with ideas and recommendations to improve your safety program.
+      Welcome to your Safety Portal.  This is where you can add a message to all
+      employees login.
+
+
+      We can also provide instructions like this months training topic.
     image_1:
-      image_url: /uploads/gladstone-logo-color.jpeg
-      image_alt: Gladstone MI logo
+      image_url: /uploads/keynectalogo-web.jpg
+      image_alt: Keynecta Logo
     button:
       enabled: false
       button_url:
@@ -18,13 +20,13 @@ content_blocks:
       open_in_new_tab: false
   - _bookshop_name: content-cards
     preheading: ''
-    heading:
-    body: ''
+    heading: Welcome to  Keynecta Login
+    body: This is a good place for an employee message
     cards:
       - heading: Keynecta Dashboard
         body: >-
-          An optional dashboard message here to make sure it's extra clear what
-          this dashboard is for.
+          You can navigate to the Safety Dashboard or other Useful links, Forms,
+          and Other Training Resources.
         button:
           enabled: true
           button_url: >-
