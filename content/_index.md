@@ -35,33 +35,34 @@ content_blocks:
           open_in_new_tab: true
       - heading: Useful Links
         body: >-
-          * <a target="_blank" rel="noopener"
-          href="https://docs.google.com/document/d/1ar1yQa5_EyQIyDzAD8NHs2D1asrF_kxB/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true">Safety
-          Program policies and procedures</a>
+          * <a
+          href="https://docs.google.com/document/d/1ar1yQa5_EyQIyDzAD8NHs2D1asrF_kxB/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true"
+          target="_blank" rel="noopener">Safety Program policies and
+          procedures</a>
 
 
           ### Forms
 
 
-          * <a target="_blank" rel="noopener"
-          href="https://docs.google.com/document/d/1A5ildqKixHehKMCPulSyq0FnWua10Sh3jq_uZEfj3l4/edit?usp=sharing">Permit
-          Required Confined Space</a>
+          * <a
+          href="https://docs.google.com/document/d/14bwzD17qtR6H4CmUIs4sXPXmNWMvxWDF/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true"
+          target="_blank" rel="noopener">Permit Required Confined Space</a>
 
-          * <a target="_blank" rel="noopener"
-          href="https://docs.google.com/document/d/1pOQS1QPlod2Ua40efCNJcJjch3Eg195_s_vE3O5yYcs/edit?usp=sharing">Hot
-          Work</a>
+          * <a
+          href="https://docs.google.com/document/d/14wZ5lbjLVbkWHeFOWK4uI39XPN-jNfoX/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true"
+          target="_blank" rel="noopener">Hot Work</a>
 
-          * <a target="_blank" rel="noopener"
-          href="https://docs.google.com/document/d/1tuw2YoOYlNf1tGbPP9cha-IzarO9GKYjzfaWnoy7e7o/edit?usp=sharing">Lockout
-          Procedures</a>
+          * <a
+          href="https://docs.google.com/document/d/1JIHSweGj7qbblSg8-GifcpFAqyBwo4bD/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true"
+          target="_blank" rel="noopener">Lockout Procedures</a>
 
 
           ### Other Training Resources&nbsp;
 
 
-          * <a target="_blank" rel="noopener"
-          href="https://drive.google.com/file/d/1y-3zwOpGtlJvkJMotwgjnkSsC6HstMFm/view?usp=sharing">DOT
-          Inspection Rules</a>
+          * <a
+          href="https://drive.google.com/file/d/1y-3zwOpGtlJvkJMotwgjnkSsC6HstMFm/view?usp=sharing"
+          target="_blank" rel="noopener">DOT Inspection Rules</a>
         button:
           enabled: false
           button_url:
