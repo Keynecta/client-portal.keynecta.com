@@ -3,7 +3,7 @@ _schema: default
 title: Home
 content_blocks:
   - _bookshop_name: home-hero
-    heading: Welcome to KeynectaI👋
+    heading: Welcome to Keynecta👋
     body: >-
       Welcome to your Safety Portal.  This is where you can add a message to all
       employees login.
