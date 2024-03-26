@@ -3,13 +3,11 @@ _schema: default
 title: Home
 content_blocks:
   - _bookshop_name: home-hero
-    heading: Welcome to Keynecta👋
-    body: >-
-      Welcome to your Safety Portal.  This is where you can add a message to all
-      employees login.
+    heading: Welcome Gladstone👋
+    body: |-
+      This Safety Portal is where your
 
-
-      We can also provide instructions like this months training topic.
+      &nbsp;
     image_1:
       image_url: /uploads/keynectalogo-web.jpg
       image_alt: Keynecta Logo
@@ -20,7 +18,7 @@ content_blocks:
       open_in_new_tab: false
   - _bookshop_name: content-cards
     preheading: ''
-    heading: Welcome to  Keynecta Login
+    heading: Welcome Gladstone to your Safety Portal.
     body: This is a good place for an employee message
     cards:
       - heading: Keynecta Dashboard
