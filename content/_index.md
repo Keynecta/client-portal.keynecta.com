@@ -5,7 +5,7 @@ content_blocks:
   - _bookshop_name: home-hero
     heading: Welcome Gladstone👋
     body: |-
-      This Safety Portal is where your
+      This Safety Portal is where your safe culture begins.
 
       &nbsp;
     image_1:
@@ -18,7 +18,7 @@ content_blocks:
       open_in_new_tab: false
   - _bookshop_name: content-cards
     preheading: ''
-    heading: Welcome Gladstone to your Safety Portal.
+    heading:
     body: This is a good place for an employee message
     cards:
       - heading: Keynecta Dashboard
