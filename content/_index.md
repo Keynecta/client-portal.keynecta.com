@@ -18,13 +18,15 @@ content_blocks:
       open_in_new_tab: false
   - _bookshop_name: content-cards
     preheading: ''
-    heading:
-    body: This is a good place for an employee message
+    heading: Dashboard Access
+    body: >-
+      To access the dashboard, use your .gov email address and login using
+      Microsoft.  You do not need to login to a  Smartsheet account.
     cards:
       - heading: Keynecta Dashboard
         body: >-
-          Use your dashboard to access up to date data, project sheets, forms,
-          reports and training videos.
+          The dashboard is your gateway to access up to date data, project
+          sheets, forms, reports and training videos.
         button:
           enabled: true
           button_url: >-
