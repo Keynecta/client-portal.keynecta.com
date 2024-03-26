@@ -78,6 +78,6 @@ content_blocks:
         button:
           enabled: true
           button_url: https://calendly.com/mike-p5s/let-s-stay-connected
-          button_text: Contact Us
+          button_text: Schedule a time
           open_in_new_tab: true
 ---
