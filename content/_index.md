@@ -25,8 +25,8 @@ content_blocks:
     cards:
       - heading: Keynecta Dashboard
         body: >-
-          You can navigate to the Safety Dashboard or other Useful links, Forms,
-          and Other Training Resources.
+          Use your dashboard to access data, project sheets, forms, reports and
+          training videos.
         button:
           enabled: true
           button_url: >-
