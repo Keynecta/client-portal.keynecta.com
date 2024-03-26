@@ -25,8 +25,8 @@ content_blocks:
     cards:
       - heading: Keynecta Dashboard
         body: >-
-          Use your dashboard to access data, project sheets, forms, reports and
-          training videos.
+          Use your dashboard to access up to date data, project sheets, forms,
+          reports and training videos.
         button:
           enabled: true
           button_url: >-
