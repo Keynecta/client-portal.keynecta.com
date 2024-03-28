@@ -20,8 +20,8 @@ content_blocks:
     preheading: ''
     heading: Dashboard Access
     body: >-
-      To access the dashboard, use your .gov email address and login using
-      Microsoft.  You **do not** need to login to a  Smartsheet account.
+      To access the dashboard, use your .gov email address.  You **do not** need
+      to create a  Smartsheet account.
     cards:
       - heading: Keynecta Dashboard
         body: >-
