@@ -3,7 +3,7 @@ _schema: default
 title: Home
 content_blocks:
   - _bookshop_name: home-hero
-    heading: Welcome Gladstone👋
+    heading: Welcome 👋
     body: |-
       This Safety Portal is where your safe culture begins.
 
@@ -18,10 +18,8 @@ content_blocks:
       open_in_new_tab: false
   - _bookshop_name: content-cards
     preheading: ''
-    heading: Dashboard Access
-    body: >-
-      To access the dashboard, use your .gov email address.  You **do not** need
-      to create a  Smartsheet account.
+    heading: Safety Resources
+    body: '&nbsp;'
     cards:
       - heading: Keynecta Dashboard
         body: >-
