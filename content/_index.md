@@ -32,35 +32,7 @@ content_blocks:
           button_text: View My Dashboard
           open_in_new_tab: true
       - heading: Useful Links
-        body: >-
-          * <a
-          href="https://docs.google.com/document/d/1ar1yQa5_EyQIyDzAD8NHs2D1asrF_kxB/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true"
-          target="_blank" rel="noopener">Safety Program policies and
-          procedures</a>
-
-
-          ### Forms
-
-
-          * <a
-          href="https://docs.google.com/document/d/14bwzD17qtR6H4CmUIs4sXPXmNWMvxWDF/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true"
-          target="_blank" rel="noopener">Permit Required Confined Space</a>
-
-          * <a
-          href="https://docs.google.com/document/d/14wZ5lbjLVbkWHeFOWK4uI39XPN-jNfoX/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true"
-          target="_blank" rel="noopener">Hot Work</a>
-
-          * <a
-          href="https://docs.google.com/document/d/1JIHSweGj7qbblSg8-GifcpFAqyBwo4bD/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true"
-          target="_blank" rel="noopener">Lockout Procedures</a>
-
-
-          ### Other Training Resources&nbsp;
-
-
-          * <a
-          href="https://drive.google.com/file/d/1y-3zwOpGtlJvkJMotwgjnkSsC6HstMFm/view?usp=sharing"
-          target="_blank" rel="noopener">DOT Inspection Rules</a>
+        body: "* <a href=\"https://docs.google.com/document/d/1ar1yQa5_EyQIyDzAD8NHs2D1asrF_kxB/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true\" target=\"_blank\" rel=\"noopener\">Safety Program policies and procedures</a>\n\n### Forms\n\n* <a href=\"https://docs.google.com/document/d/14bwzD17qtR6H4CmUIs4sXPXmNWMvxWDF/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true\" target=\"_blank\" rel=\"noopener\">Permit Required Confined Space</a>\n* <a href=\"https://docs.google.com/document/d/14wZ5lbjLVbkWHeFOWK4uI39XPN-jNfoX/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true\" target=\"_blank\" rel=\"noopener\">Hot Work</a>\n* <a href=\"https://docs.google.com/document/d/1JIHSweGj7qbblSg8-GifcpFAqyBwo4bD/edit?usp=sharing&amp;ouid=109939111881379402968&amp;rtpof=true&amp;sd=true\" target=\"_blank\" rel=\"noopener\">Lockout Procedures</a>\n\n### Other Training Resources\_\n\n* <a href=\"https://drive.google.com/file/d/1y-3zwOpGtlJvkJMotwgjnkSsC6HstMFm/view?usp=sharing\" target=\"_blank\" rel=\"noopener\">DOT Inspection Rules</a>"
         button:
           enabled: false
           button_url:
