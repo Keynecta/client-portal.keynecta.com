@@ -3,7 +3,7 @@ _schema: default
 title: Home
 content_blocks:
   - _bookshop_name: home-hero
-    heading: Welcome 👋
+    heading: Welcome Gladstone 👋
     body: |-
       This Safety Portal is where your safe culture begins.
 
@@ -25,8 +25,11 @@ content_blocks:
         body: >-
           The dashboard is your gateway to access up to date data, project
           sheets, forms, reports and training videos.
+
+
+          Use your .gov email.  You do **NOT** need a Smartsheet account.
         button:
-          enabled: true
+          enabled: false
           button_url: >-
             https://app.smartsheet.com/b/publish?EQBCT=e052c8bea9704903a86eb316ec9b674c
           button_text: View My Dashboard
