@@ -25,11 +25,11 @@ content_blocks:
         button:
           enabled: true
           button_url: >-
-            https://app.smartsheet.com/b/publish?EQBCT=e052c8bea9704903a86eb316ec9b674c
+            https://app.smartsheet.com/dashboards/GqhHVPPx4H4Xcc5PpRrMvrRg9fPQ76m35g4jrq31
           button_text: Open Keynecta Dashboard
           open_in_new_tab: true
       - heading: Useful Links
-        body: '- [Osha](https://www.osha.gov/)'
+        body: '* [O](https://www.osha.gov/)SHA'
         button:
           enabled: false
           button_url:
@@ -41,7 +41,7 @@ content_blocks:
           is our contact information:
 
 
-          Phone: 555-555-5555<br> Email:
+          Phone: 920-606-2030<br> Email:
           [mike@keynecta.com](mailto:mike@keynecta.com)
         button:
           enabled: true
