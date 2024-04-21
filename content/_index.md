@@ -41,8 +41,10 @@ content_blocks:
           is our contact information:
 
 
-          Phone: 920-606-2030<br> Email:
-          [mike@keynecta.com](mailto:mike@keynecta.com)
+          Phone: 920-606-2030
+
+
+          Email: [mike@keynecta.com](mailto:mike@keynecta.com)
         button:
           enabled: true
           button_url: https://www.keynecta.com/contact/
