@@ -16,7 +16,7 @@ content_blocks:
   - _bookshop_name: content-cards
     preheading: ''
     heading: Safety Resources
-    body: '&nbsp;'
+    body: ''
     cards:
       - heading: Keynecta Dashboard
         body: >-
@@ -25,7 +25,7 @@ content_blocks:
         button:
           enabled: true
           button_url: >-
-            https://app.smartsheet.com/dashboards/GqhHVPPx4H4Xcc5PpRrMvrRg9fPQ76m35g4jrq31
+            https://app.smartsheet.com/b/publish?EQBCT=11a5a9d46d764379baa18507dec1b533
           button_text: Open Keynecta Dashboard
           open_in_new_tab: true
       - heading: Useful Links
