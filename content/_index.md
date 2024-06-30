@@ -31,7 +31,7 @@ content_blocks:
         button:
           enabled: true
           button_url: >-
-            https://app.smartsheet.com/b/publish?EQBCT=46991e2143404e66a3ae0aff5b233b31
+            https://app.smartsheet.com/b/publish?EQBCT=200bbddb115f491ebd8e83f95fda0e4a
           button_text: View My Dashboard
           open_in_new_tab: true
       - heading: Useful Links
