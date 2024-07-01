@@ -5,7 +5,7 @@ content_blocks:
   - _bookshop_name: home-hero
     heading: Welcome Gladstone 👋
     body: |-
-      This Safety Portal is where your safe culture begins.
+      Congratulations on a successful second quarter.
 
       &nbsp;
     image_1:
