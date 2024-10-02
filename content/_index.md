@@ -5,7 +5,7 @@ content_blocks:
   - _bookshop_name: home-hero
     heading: Welcome Gladstone 👋
     body: |-
-      Congratulations on a successful second quarter.
+      Continue working to improve Safety Culture.
 
       &nbsp;
     image_1:
